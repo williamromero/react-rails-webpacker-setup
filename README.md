@@ -1,24 +1,38 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## USE WEBPACK ON RAILS APP
 
-Things you may want to cover:
+**On an existing app:**
+  - Create your app rails new wpckapp
+  - Add gem 'webpacker' to gemfile
+  - Run bundle install
+  - Run bin/rails webpacker:install
+  - rails webpacker:install:react
 
-* Ruby version
+**On a newer app with Rails-6.1.4 version installed:**
+  - Create your app rails new wpckapp --webpack
+  - cd wbckapp
 
-* System dependencies
 
-* Configuration
+  **CURRENTLY ON DEVELOPMENT**
 
-* Database creation
+### REFERENCES
 
-* Database initialization
+[Webpacker Gem](https://github.com/rails/webpacker)
 
-* How to run the test suite
+[Ruby on Rails Documentation - Webpack](https://edgeguides.rubyonrails.org/webpacker.html)
 
-* Services (job queues, cache servers, search engines, etc.)
+[Rails Webpack Bootstrap 5](https://blog.corsego.com/rails-bootstrap-5-yarn)
 
-* Deployment instructions
+[Rails Webpack React Hot Reloader](https://medium.com/@coorasse/react-hot-reload-in-ruby-on-rails-5d534db665d)
 
-* ...
+[ReactRails](https://www.honeybadger.io/blog/react-rails/)
+
+[React Router V6](https://reacttraining.com/blog/react-router-v6-pre/)
+
+[Installing React in Ruby on Rails](https://jasoncharnes.com/installing-react-in-ruby-on-rails/)
+
+[React Rails](https://learnetto.com/blog/react-rails)
+
+[React Rails Github](https://github.com/reactjs/react-rails)
+
